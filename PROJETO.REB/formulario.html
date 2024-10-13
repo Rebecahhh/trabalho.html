@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <head>
+        <title>Formulario</title>
+    </head>
+
+    <div>
+        <h1>Cadastro</h1>
+        <p>Complete suas informações</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label>Nome</label>
+            <input type="text" placeholder="Digite seu nome" >
+            <br><br>
+            </div>
+
+            <div>
+                <label>E-mail</label>
+                <input type="email" placeholder="Digite seu e-mail" >
+                <br><br>    
+            </div>
+
+            <div>
+                <label>Idade</label>
+            <input type="number" min="0" max="120" >
+            <br><br>
+            </div>
+
+            <div>
+                <label>Sexo</label><br>
+            <input type="radio" name="sexoPessoa"  value="F">Feminino<br>
+            <input type="radio" name="sexoPessoa" value="M">Masculino
+            <br><br>
+            </div>
+
+            <div>
+                <label>Estado Civil</label>
+            <select name="estadocivil">
+                <option value="S">Solteiro(a)</option>
+                <option value="C">Casado(a)</option>
+                <option value="D">Divorciado(a)</option>
+                <option value="V">Viuvo(a)</option>
+            </select>
+            <br><br>
+            
+        </form>
+
+            </div>
+
+            <div>
+            <label>Filmes Favoritos</label> <br>
+            <input type="checkbox" name="JURASSICPARK1"> JURASSIC PARK: O PARQUE DOS DINOSSAUROS <br>
+            <input type="checkbox" name="JURASSICPARK2"> JURASSIC PARK: O O MUNDO PERDIDO <br>
+            <input type="checkbox" name="JURASSICPARK3"> JURASSIC PARK III <br>
+            <input type="checkbox" name="JURASSICPARK4 "> JURASSIC WORLD <br>
+            <br>
+            </div>
+
+            <div>
+                <input type="reset" value="Limpar dados">
+                <input type="submit" value="Cadastrar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
